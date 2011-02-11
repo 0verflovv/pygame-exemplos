@@ -24,18 +24,10 @@ position = (300,176) #Meio da tela
 radius = (60)
 
 while True:
-    for event in pygame.event.get():
-        if event.type == QUIT:
-            pygame.quit()
-            exit()
-
-    screen.lock()
 
     pygame.draw.circle(screen,color,position,radius)
-    
-    screen.unlock()
 
     pygame.display.update()
 
-#O exercício será, desenhar outro círculo dentro do que já foi feito!
+#O exercício sera, desenhar outro círculo dentro do que ja foi feito!
     

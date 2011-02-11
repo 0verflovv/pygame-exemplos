@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
-# Name:        Retângulo
-# Purpose:     Um Retângulo em PyGame
+# Name:        Retangulo
+# Purpose:     Um Retangulo em PyGame
 #
 # Author:      Fernanda
 #
@@ -21,7 +21,7 @@ pygame.init()
 screen = pygame.display.set_mode((640,360),0,32)    
 
 while True:
-    #pygame.event.get() retornará o evento esperado,ou seja,o evento executado pelo usuario
+    #pygame.event.get() retornara o evento esperado,ou seja,o evento executado pelo usuario
     for event in pygame.event.get():
         #se o evento esperado for fechar a tela, entao o pygame sai o programa
         if event.type == QUIT:
