@@ -17,8 +17,7 @@ from sys import exit
 # inicializa a pygame engine
 pygame.init()
 
-# coloca as cores preto e branco em variaveis
-preto = (0, 0, 0)
+# coloca a cor branco em uma variavel
 branco = (255, 255, 255)
 
 # coloca o objeto (font) que representa a fonte em uma variavel
@@ -28,9 +27,6 @@ fonte = pygame.font.SysFont("arial", 120)
 screen = pygame.display.set_mode((800, 600))
 
 while True:
-    # pinta o fundo da tela de preto
-    screen.fill(preto)
-
     # joga a fonte na posicao x=100, y=50 da tela
     screen.blit(fonte.render("Hello World!", True, branco), (130, 200))
 
