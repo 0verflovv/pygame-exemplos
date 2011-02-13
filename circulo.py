@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
-# Name:        Círculo
-# Purpose:     Um Círculo em PyGame
+# Name:        Circulo
+# Purpose:     Um Circulo em PyGame
 #
 # Author:      Fernanda
 #
@@ -29,5 +29,5 @@ while True:
 
     pygame.display.update()
 
-#O exercício sera, desenhar outro círculo dentro do que ja foi feito!
+#O exercicio sera, desenhar outro circulo dentro do que ja foi feito!
     
