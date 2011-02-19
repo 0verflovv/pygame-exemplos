@@ -22,6 +22,9 @@ branco = (255, 255, 255)
 
 screen = pygame.display.set_mode((890, 550), 0, 32)
 
+# define o titulo da janela
+pygame.display.set_caption("Duck Hunt for PyGame")
+
 # variaveis que armazenarao a posicao em que o mouse se encontra
 x_pos = 0
 y_pos = 0
