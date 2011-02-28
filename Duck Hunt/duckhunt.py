@@ -2,11 +2,11 @@
 # Name:        Duck Hunt
 # Purpose:     Classico do Nintendo Entertainment System portado para PyGame!
 #
-# Author:      Johann
+# Author:      Johann Gomes Barros Lima
 #
 # Created:     13/02/2011
 # Copyright:   (c) Johann 2011
-# Licence:     <your licence>
+# Licence:     GNU General Public License (GPL)
 #-------------------------------------------------------------------------------
 #!/usr/bin/env python
 
@@ -52,11 +52,10 @@ while True:
         # se ele capturar um evento de fechar a tela (clicar no botao "X" no topo da janela), o programa eh fechado
         if event.type == QUIT:
             exit()
-        if event.type == MOUSEMOTION:
+        elif event.type == MOUSEMOTION:
             x_pos, y_pos = pygame.mouse.get_pos()
-        if event.type == MOUSEBUTTONDOWN:
+        elif event.type == MOUSEBUTTONDOWN:
             x_clique, y_clique = pygame.mouse.get_pos()
-
 
     posicao = (x_pos - 50, y_pos - 50)
 
@@ -72,7 +71,6 @@ while True:
 
         errou = True
 
-
     # colore o fundo de preto, deve sempre vir antes de desenharmos os objetos, no caso o circulo, pois se nao, tudo vai ficar preto!
     screen.fill(preto)
     pygame.mouse.set_visible(False)
@@ -81,7 +79,6 @@ while True:
     # primeiro e a mira depois, ficando o background atras da mira e nao o contrario!
     screen.blit(pygame.image.load("background.png"), (0, 0))
     screen.blit(pygame.font.SysFont("tahoma", 72).render("Pontos: " + str(pontos), True, branco), (500, 450))
-
 
     # para serem contabilizados pontos, a posicao do clique deve estar mais ou menos onde o pato esta exatamente,
     # por conta desse mais ou menos usamos a funcao range

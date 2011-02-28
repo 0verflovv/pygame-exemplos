@@ -1,15 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        mira
-# Purpose:
-#
-# Author:      Johann
-#
-# Created:     13/02/2011
-# Copyright:   (c) Johann 2011
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-#!/usr/bin/env python
-
 import pygame
 from pygame.locals import*
 from sys import exit
