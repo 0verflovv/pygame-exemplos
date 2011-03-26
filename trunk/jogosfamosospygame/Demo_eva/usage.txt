@@ -1,0 +1,38 @@
+
+windowed --> run demoEva
+fullscreen --> run demoEva -f
+
+key:
+q --> QUIT
+ESC/p --> pause
+o --> pause/unpause music
+j --> soundsFX
+r --> reflections
+F11 --> save JPG
+F12 --> save BMP
+
+DEMO:
+arrowKeys --> move camera -only in manual and fps mode-
+mouse --> turn camera (fps style)
+keypad 0 --> camera manual mode (default)
+keypad 1 --> camera behind purple Eva
+keypad 2 --> camera behind dark Eva
+keypad 3 --> camera random around Evas
+keypad 4 --> sometimes camera changes randomly position around or behind Evas
+keypad 5 --> camera fps style (free)
+
+FIGHT: (use training to learn..)
+to run press 'w' key
+to walk press 'w'+'left Shift' keys
+to turn eva use 'a' and 'd' keys
+to quickly turn eva move mouse left and right
+to quickly turn eva 180 degrees use SCROLL WHEEL DOWN
+to kick press left mouse button
+to punch press right mouse button
+to activate DEFENCE MODE and aim enemy press 's' key
+to move eva around enemy in DEFENCE MODE hold 's' key and use 'a' and 'd' keys
+to jump forward in DEFENCE MODE hold 's' key and SCROLL WHEEL UP
+to jump back in DEFENCE MODE hold 's' key and SCROLL WHEEL DOWN
+to shot in DEFENCE MODE hold 's' key + hold central mouse button and move it left and then right
+to teleport eva behind enemy in DEFENCE MODE hold 's' key + hold central mouse button and draw a clockwise circle
+to fastMove eva in DEFENCE MODE hold 's' key + hold central mouse button and use mouse to draw counter-clockwise circles

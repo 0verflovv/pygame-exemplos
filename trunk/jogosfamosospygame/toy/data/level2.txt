@@ -1,0 +1,11 @@
+Level 1 Map
+Man
+671 px 191 px 737 px 305 px
+Platforms
+1437 px -7 px 1475 px 1198 px
+511 px 1164 px 1482 px 1203 px
+511 px -14 px 549 px 1205 px
+Stars
+962 px 1037 px 1015 px 1087 px
+Warps
+1403 px 946 px 1440 px 1195 px

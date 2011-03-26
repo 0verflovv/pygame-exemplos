@@ -1,0 +1,12 @@
+punch_in 0 12 24 1
+punch_01 13 20 24 1
+punch_02 21 28 24 1
+punch_out 29 36 24 1
+falling 37 58 24 1
+dead 57 58 24 1
+getup 60 80 24 1
+defence 83 89 24 1
+block 90 100 24 1
+move_r 100 108 24 1
+move_l 109 117 24 1
+shot_0 118 137 24 1

@@ -17,5 +17,5 @@ while True:
 
     # pygame.image.load recebe uma string com o endereco da imagem, carregando-a
     # o .convert() converte essa imagem carregada para o tipo Surface, possibilitando que ela apareca na tela
-    screen.blit(pygame.image.load("imagem.jpg").convert(), (150, 50))
+    screen.blit(pygame.image.load("imagem.jpg").convert(), (130, 20))
     pygame.display.update()

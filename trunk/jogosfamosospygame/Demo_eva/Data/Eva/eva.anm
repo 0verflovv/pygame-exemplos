@@ -1,0 +1,5 @@
+t-pose 0 1 24 1
+walk 1 25 24 1
+stand 26 56 24 1
+run 57 71 24 1
+stop_run 72 96 24 1

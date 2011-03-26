@@ -1,15 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        Hello World
-# Purpose:     Um Hello World em PyGame
-#
-# Author:      Johann
-#
-# Created:     11/02/2011
-# Copyright:   (c) Johann 2011
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-#!/usr/bin/env python
-
 import pygame
 from pygame.locals import *
 from sys import exit
@@ -30,4 +18,4 @@ while True:
     # joga a fonte na posicao x=100, y=50 da tela
     screen.blit(pygame.font.SysFont("arial", 120).render("Hello World!", True, branco), (130, 200))
     # atualiza a tela constantemente
-    pygame.display.flip()
+    pygame.display.update()

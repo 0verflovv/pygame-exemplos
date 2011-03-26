@@ -1,20 +1,8 @@
-#-------------------------------------------------------------------------------
-# Name:        Circulo
-# Purpose:     Um Circulo em PyGame
-#
-# Author:      Fernanda
-#
-# Created:     11/02/2011
-# Copyright:   (c) Fernanda 2011
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-#!/usr/bin/env python
-
 import pygame
 from pygame.locals import*
 from sys import exit
 
-# Desenhando circulos(parametros = screen,color,position,radius)
+# desenhando circulos(parametros = screen,color,position,radius)
 
 pygame.init()
 cor = (230, 170, 0)
