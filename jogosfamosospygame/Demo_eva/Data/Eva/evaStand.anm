@@ -1,0 +1,7 @@
+stand 0 30 24 1
+stand_tired 31 61 24 1
+kick_01 62 86 24 1
+kick_02 87 108 24 1
+turn_l 109 121 24 1
+turn_r 122 134 24 1
+shock 135 150 24 1

@@ -1,15 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        PyGame Music Player
-# Purpose:
-#
-# Author:      Johann
-#
-# Created:     23/02/2011
-# Copyright:   (c) Johann 2011
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-#!/usr/bin/env python
-
 import pygame
 from pygame.locals import *
 
@@ -53,6 +41,14 @@ class PyGameMusicPlayer:
         elif x in range(260, 310) and y in range(120, 160):
             pygame.mixer.music.stop()
             return "Proximo"
+		# botao de diminuir volume
+        elif x in range(585, 625) and y in range(125, 155):
+            pygame.mixer.music.set_volume(pygame.mixer.music.get_volume() - 0.1)
+            return "Volume: " + str(pygame.mixer.music.get_volume())[:3]
+		# botao de aumentar volume
+        elif x in range (625, 665) and y in range(125, 155):
+            pygame.mixer.music.set_volume(pygame.mixer.music.get_volume() + 0.1)
+            return "Volume: " +  str(pygame.mixer.music.get_volume())[:3]
 
     def mostrarPainel(self):
         screen = pygame.display.set_mode((670, 165))
@@ -61,6 +57,7 @@ class PyGameMusicPlayer:
         screen = pygame.display.set_mode((670, 165))
         playlist = self.criarPlaylist()
         for musica in playlist:
+			# para cada musica da playlist, uma tela sera mostrada (um while pygame.mixer.music.get_busy())
             pygame.mixer.music.load(musica)
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
